@@ -1,0 +1,39 @@
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 50px;
+  align-items: center;
+}
+nav .navbar__logo {
+  width: 120px;
+}
+nav .navbar__menu {
+  display: flex;
+  gap: 27px;
+  padding: 15px 20px;
+}
+nav .navbar__links {
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  font-weight: 400;
+}
+nav .navbar__links a {
+  text-decoration: none;
+  color: white;
+}
+nav .navbar__button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: var(--pink);
+}
+nav .navbar__button a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=navbar.css.map */
